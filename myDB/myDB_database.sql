@@ -25,7 +25,17 @@ insert into employees
 insert into employees (employee_id, first_name, last_name)
     values (6,"Sheldon", "Plankton");
 
-select * from employees;
+select first_name, last_name
+from employees;
             
+
+select * 
+from employees
+where employee_id = 1;
+
+
+select * 
+from employees
+where hourly_pay >= 15;
 
 
